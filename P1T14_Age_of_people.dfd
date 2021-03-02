@@ -1,0 +1,85 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+92
+"AGESOFT_MAKER: Marian Gabriela Mora Guerrero_this software determine the age of the person"
+5
+1
+5
+V_age
+7
+0
+1
+21
+V_age<0 OR V_age>=969
+7
+0
+1
+20
+V_age<0 AND V_age<=6
+7
+0
+1
+21
+V_age>6 AND V_age<=18
+7
+0
+1
+22
+V_age>19 AND V_age<=45
+7
+0
+1
+21
+V_age>45 AND V_age<90
+7
+0
+1
+23
+V_age>=90 AND V_age<969
+4
+1
+27
+"ERR: the age is incorrect"
+13
+4
+1
+24
+"The age of a matusalen"
+13
+13
+4
+1
+27
+"The age of an older adult"
+13
+13
+4
+1
+21
+"The age of an adult"
+13
+13
+4
+1
+26
+"The age of an adolescent"
+13
+13
+4
+1
+20
+"The age of a child"
+13
+13
+4
+1
+29
+"ERR:The number is incorrect"
+13
+1
