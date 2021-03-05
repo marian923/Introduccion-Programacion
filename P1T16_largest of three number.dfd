@@ -1,0 +1,64 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+152
+"SOFT LARGUES OF THREE NUMBERS_MAKER:Marian Gabriela Mora Guerrero_this software calculate which is thw largues of three numbers_ Type the first number"
+5
+1
+4
+V_N1
+4
+1
+24
+"Type the second number"
+5
+1
+4
+V_N2
+4
+1
+23
+"Type the third number"
+5
+1
+4
+V_N3
+7
+0
+1
+10
+V_N1>V_N2 
+7
+0
+1
+9
+V_N2>V_N3
+4
+1
+23
+"The largest is:", V_N3
+13
+4
+1
+24
+"The largest is:" , V_N2
+13
+13
+7
+0
+1
+9
+V_N1>V_N3
+13
+4
+1
+24
+"The largest is:" , V_N1
+13
+13
+1
