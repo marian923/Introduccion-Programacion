@@ -1,0 +1,78 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+114
+"SOFTSUMAVERAGE_MAKER:Marian Gabriela Mora Guerrero_this software calculate the summatory and average for numbers"
+4
+1
+25
+"Imput the total numbers"
+5
+1
+15
+V_total_numbers
+7
+0
+1
+18
+V_total_numbers<=0
+6
+2
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+15
+V_total_numbers
+1
+1
+1
+4
+1
+24
+"imput the number " , i 
+5
+1
+8
+V_number
+6
+1
+5
+v_sum
+15
+v_sum+ V_number
+10
+6
+1
+9
+v_average
+22
+v_sum/ V_total_numbers
+4
+1
+88
+"for", V_total_numbers, " numbers the sum is "  ,v_sum, " and the average is", v_average
+13
+4
+1
+51
+"ERR:The total numbers should be greater than zero"
+13
+1
