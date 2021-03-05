@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+101
+"SOFTHYPOTENUSE_MAKER:Marian Gabriela Mora Guerrero_this software calculate hypotenuse of a triangle"
+4
+1
+25
+"Enter the adjacent side"
+5
+1
+11
+V_adjacent 
+4
+1
+25
+"Enter the opposite side"
+5
+1
+11
+V_opposite 
+6
+3
+11
+V_adjacent 
+12
+V_adjacent^2
+11
+V_opposite 
+12
+V_opposite^2
+12
+V_hypotenuse
+28
+SQRT(V_adjacent +V_opposite)
+4
+1
+36
+"the hypotenuse is: " , V_hypotenuse
+1
