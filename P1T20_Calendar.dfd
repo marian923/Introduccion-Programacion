@@ -1,0 +1,56 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+137
+"SOFTCALENDAR_MAKER:Marian Gabriela Mora Guerrero_This software is to determine with the number of the month how many days the month has"
+4
+1
+17
+"Type the number"
+5
+1
+5
+V_NUM
+7
+0
+1
+20
+V_NUM<=0 OR V_NUM>12
+7
+0
+1
+8
+V_NUM=2 
+7
+0
+1
+75
+V_NUM=1 OR V_NUM=3 OR V_NUM=5 OR V_NUM=7 OR V_NUM=8 OR V_NUM=10 OR V_NUM=12
+4
+1
+25
+" this month has 30 days"
+13
+4
+1
+25
+" this month has 31 days"
+13
+13
+4
+1
+26
+" this month  has 28 days"
+13
+13
+4
+1
+57
+"ERR: the number is incorrect tiene que ser entre 1 y 12"
+13
+1
