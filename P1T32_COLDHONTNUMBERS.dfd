@@ -1,0 +1,127 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+4
+1
+148
+"COOLHOTNUMBER V1.0- MAKER:Marian Gabriela Mora Guerrero-DESCRIPTION: This math game try simulate the hot and cool find number - you have 5 intents"
+6
+3
+12
+V_sys_number
+16
+random (100) +1 
+9
+V_intents
+1
+5
+5
+V_win
+1
+0
+12
+1
+14
+p_imput_number
+1
+13
+V_user_number
+9
+1
+45
+V_sys_number != V_user_number AND V_intents>0
+6
+2
+9
+V_intents
+11
+V_intents-1
+5
+V_dif
+27
+V_sys_number- V_user_number
+7
+0
+1
+14
+abs(V_dif) <=5
+7
+0
+1
+8
+V_dif >0
+4
+1
+9
+"Cold up"
+13
+4
+1
+11
+"Cold down"
+13
+13
+4
+1
+19
+" Your are hooooot"
+13
+12
+1
+14
+p_imput_number
+1
+11
+V_user_name
+11
+7
+0
+1
+13
+V_intents >0 
+4
+1
+57
+"SORRY--> YOU LOST -->THE SECOND NUMBER IS", V_sys_number
+13
+4
+1
+38
+"CONGRATULATIONS --> YOU WON THE GAME"
+13
+1
+2
+1
+14
+p_imput_number
+1
+13
+V_user_number
+1
+47
+This sub-program return the user valide number 
+4
+1
+35
+"imput a number beetween 1 and 100"
+5
+1
+13
+V_user_number
+9
+1
+39
+V_user_number < 1 OR V_user_number >100
+4
+1
+78
+"ERR:your number should be inside beetween 0 and 100- imput again your number"
+5
+1
+13
+V_user_number
+11
+3
