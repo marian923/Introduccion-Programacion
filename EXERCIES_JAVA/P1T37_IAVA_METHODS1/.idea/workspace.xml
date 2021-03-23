@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52ec415e-d8a1-4f3c-a593-1dd926d460ca" name="Default Changelist" comment="" />
+    <list default="true" id="a80ff25e-c3bc-41cb-8135-a5f6b8dcff9f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1pxCwFfFcFGgh3jFSsmHcpM5ZSF" />
+  <component name="ProjectId" id="1qAZW7FseCqeAc7LjyPidptKXEJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -71,15 +71,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="usta.fis.Main" />
-      <module name="P1T35_JAVA_INPUT_NUMBER" />
+      <module name="P1T37_IAVA_METHODS1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -96,11 +91,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="52ec415e-d8a1-4f3c-a593-1dd926d460ca" name="Default Changelist" comment="" />
-      <created>1616115590769</created>
+      <changelist id="a80ff25e-c3bc-41cb-8135-a5f6b8dcff9f" name="Default Changelist" comment="" />
+      <created>1616524384916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616115590769</updated>
+      <updated>1616524384916</updated>
     </task>
     <servers />
   </component>
