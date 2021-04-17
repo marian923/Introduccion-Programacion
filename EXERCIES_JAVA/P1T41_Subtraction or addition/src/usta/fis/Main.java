@@ -30,7 +30,15 @@ public class Main {
         System.out.println("Input the second number:");
         v_number4= keyboard.nextInt();
         v_res = v_number3-v_number4;
-        System.out.println("The total sum is " +v_res);
+        System.out.println("The total res is " +v_res);
+
+        int v_number5, v_number6, v_multiplication;
+        System.out.println("Input the first number:");
+        v_number5= keyboard.nextInt();
+        System.out.println("Input the second number:");
+        v_number6= keyboard.nextInt();
+        v_multiplication = v_number5*v_number6;
+        System.out.println("The total multiplication is " +v_multiplication);
 
     }
 
