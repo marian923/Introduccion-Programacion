@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49f3e0a4-3c4e-4b5c-8f79-fc4dcaef3ed6" name="Default Changelist" comment="" />
+    <list default="true" id="fcc4e101-1565-4d7b-a563-c5bab88a80bb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1rGMek19pMtwTDbPETvNj5M5fdu" />
+  <component name="ProjectId" id="1rOEfc2USF9DEloX3SFQiZ5xUt6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -71,16 +71,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main ">
+    <configuration name="Main " type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="usta.fis.Main" />
+      <module name="P1T43_Numeros_Primos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usta.fis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="usta.fis.Main" />
-      <module name="P1T43_Calculator_Switch" />
+      <module name="P1T43_Numeros_Primos" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -90,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main " />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,11 +105,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="49f3e0a4-3c4e-4b5c-8f79-fc4dcaef3ed6" name="Default Changelist" comment="" />
-      <created>1618598071966</created>
+      <changelist id="fcc4e101-1565-4d7b-a563-c5bab88a80bb" name="Default Changelist" comment="" />
+      <created>1618838839953</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1618598071966</updated>
+      <updated>1618838839953</updated>
     </task>
     <servers />
   </component>
