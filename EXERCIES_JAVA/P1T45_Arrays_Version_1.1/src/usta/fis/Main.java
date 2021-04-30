@@ -5,16 +5,29 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        float v_sum=0;
+        int counter=0;
+        int p_cuts;
         Scanner entrada = new Scanner(System.in);
-        float [] numbers = new float[5];
+        System.out.println("Type the number of the cuts");
+        p_cuts= entrada.nextInt();
+        int [] numbers = new int[p_cuts];
 
-        for(int counter=0;counter<5;counter++){
+        for( counter=0;counter< numbers.length;counter++){
             System.out.print((counter+1)+". Digite el numero: ");
-            numbers[counter]= entrada.nextFloat();
+            numbers[counter]= entrada.nextInt();
+            v_sum=v_sum+numbers[counter];
         }
-        System.out.println("Su calificacion del corte es");
-        for( float counter:numbers){
-            System.out.println(counter);
+        // System.out.println("Valor de sum" + v_sum + " valor counter" + counter);
+        System.out.println("The average of all the Terms is: "+(v_sum/counter)+".");
+
+       for ( counter=0;counter<numbers.length;counter++){
+           System.out.println("Su calificacion del corte "+ (counter+1) + " es " + numbers[counter]);
+
         }
+
+       }
+
     }
-}
+
+
