@@ -19,8 +19,8 @@ public class Main {
 		int v_fibonacci[] = new int[100];
 		v_fibonacci[0] = 0;
 		v_fibonacci[1] = 1;
-		for (int i=1; (v_fibonacci[i-1]+v_fibonacci[i]) < v_limit;i++){
-			v_fibonacci[i+1] = v_fibonacci[i-1] + v_fibonacci[i];
+		for (int i=1; (v_fibonacci[i-1]+v_fibonacci[i]) < v_limit;i++){ // declaramos un int=1,
+			v_fibonacci[i+1] = v_fibonacci[i-1] + v_fibonacci[i]; // i+1 lo utilizamos para la siguiente variable o subvariable
 			v_fibonacci[i+2] = -1;
 		}
 		return v_fibonacci;
