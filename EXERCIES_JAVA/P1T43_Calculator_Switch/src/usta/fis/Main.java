@@ -26,7 +26,7 @@ public class Main {
             if (v_operation>=1&&v_operation<=4){
                 System.out.println("The result is: "+v_total_number+".");
             }
-        } while (v_operation!=0);
+        } while (v_operation!=0); //
 
 
     }
