@@ -10,6 +10,8 @@ public class Main {
         int v_operation;
         int v_number_one= 0 ;
         int v_number_two= 0 ;
+
+        float v_number1=0;
         do {
             System.out.println("Please write one to add two to subtract three to multiply four to divide and five to determine the prime of N numbers and six to calculate the above prime numbers ");
             v_operation= keyboard.nextInt();
@@ -29,12 +31,15 @@ public class Main {
         } while (v_operation!=0); //
 
 
+
+
     }
 
     public static String p_operate_numbers( int v_number_one, int v_number_two, int v_operation){
         Scanner keyboard = new Scanner(System.in);
         int v_total_number=0;
         String v_convert;
+
         switch (v_operation) {
             case 1 : v_total_number = v_number_one + v_number_two;
             break;
@@ -62,9 +67,27 @@ public class Main {
                 System.out.println(v_convert);
                 System.exit(0);
         }
+        if (v_operation>0&&v_operation<5){
+            if(p_validate_even(v_total_number)){
+                System.out.println(v_total_number+" is an odd ");
+            }
+            else{
+                System.out.println(v_total_number+" is a even");
+            }
 
+        }
+        if (v_operation>=5){
+            if(p_validate_prime_even(v_number_one)){
+                System.out.println(v_number_one+" is an odd ");
+            }
+            else{
+                System.out.println(v_number_one+" is a even");
+            }
+        }
 
         return Integer.toString(v_total_number);
+
+
         }
 
         public static String p_prime_numbers(int v_limit){
@@ -86,6 +109,13 @@ public class Main {
             }
             return numbers_divide == 2; //retornara aquellos valores que solo tengan dos divisores
         }
+    public static boolean p_validate_even(float v_total) {
+        return v_total % 2 != 0;
+    }
+
+    public static boolean p_validate_prime_even(float v_number1) {
+        return v_number1 % 2 != 0;
+    }
 
 
     public static void p_show_info_program(){
