@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	int numberOne=0;
-	int numberTwo=0;
-	int result=0;
-	int operationToDo=0;
+	int numberOne;
+	int numberTwo;
+	int result;
+	int operationToDo;
 	Scanner keyboard = new Scanner(System.in);
 	programInfo();
 	System.out.println("please type the aritmetic operation: 1 to add, 2 to subtract, 3 multiply, 4 divide, 5 numbers prime");
@@ -23,7 +23,7 @@ public class Main {
 
     }
     public static int operationCalc(int number1, int number2, int operation){
-
+        String v_convert;
         if (operation==1){
             return number1+number2;
         }
@@ -37,7 +37,12 @@ public class Main {
             return number1/number2;
         }
         if (operation==5){
-            p_validate_prime(number1);
+            int v_number =number1/number2;
+            v_convert = "NO es un number primo";
+            if (p_validate_prime(v_number)){
+                v_convert= "Es un numero primo";
+            }
+            System.out.println(v_convert);
             return number1/number2;
         }
         return 0;
@@ -45,7 +50,7 @@ public class Main {
     public static boolean p_validate_prime (int v_number){
         int numbers_divide=0;
         for (int i=1;i<=v_number;i++){
-            if (v_number%i==0){
+            if (v_number%i==0){ //si el residuo de v_number entre i
                 numbers_divide++;
             }
         }
