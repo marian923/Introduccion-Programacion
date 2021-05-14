@@ -13,10 +13,12 @@ public class TestDialogClass {
         JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo",JOptionPane.NO_OPTION);
         //Dialogo que muestra un mensaje y un icono a la izquierda para significar alarma
         JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Mensaje en la barra de titulo", JOptionPane.WARNING_MESSAGE);
-
-
         //Dialogo que muestra un mensaje y un icono
         JOptionPane.showMessageDialog(null, "Mensaje dentro de la ventana", "Titulo", JOptionPane.INFORMATION_MESSAGE);
+
+
+
+
 
 
 
