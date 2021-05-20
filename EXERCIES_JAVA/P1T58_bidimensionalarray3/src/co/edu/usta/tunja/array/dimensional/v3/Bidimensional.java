@@ -6,7 +6,7 @@ public class Bidimensional {
     //
     public static void main(String[] args) {
         int[][] matrix;
-        int value;
+        int value, biggestNumber, lengthBiggestNumber = 0;
         String columns, rows, input;
         columns = JOptionPane.showInputDialog("This program creates dynamic bi-dimensional arrays, " +
                 "\nPlease, type/input the size of columns:");
@@ -27,6 +27,8 @@ public class Bidimensional {
             }
         }
         JOptionPane.showMessageDialog(null,stringMatrix(matrix, rows, columns));
+        biggestNumber=findBiggestValueImMatrix(matrix);
+        lengthBiggestNumber=countDigitsNumber(biggestNumber);
     }
 
     public static String stringMatrix(int[][] matrix, String rows, String columns) {
@@ -38,5 +40,23 @@ public class Bidimensional {
             finalAnswer+="\n"; //Cuando termina de imprimir los números de la matriz [i] (quiere decir que son los j), crea una nueva línea
         }
         return finalAnswer;
+    }
+    public static int findBiggestValueImMatrix(int [][] matrix){ //sirve para verificar el numero mayor del arreglo
+        int biggest=matrix[0][0];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (biggest<matrix[i][j]){//verify if value strorage in the matrix is biggest than value storage in the variable
+                    biggest=matrix[i][j];
+
+                }
+
+            }
+
+        }
+        return biggest;
+    }
+    public static int countDigitsNumber(int myNumber){ //subprograma para sirve verificar cual es la longuitud del numero mayor
+        String value = String.valueOf(myNumber);
+        return value.length();
     }
 }
