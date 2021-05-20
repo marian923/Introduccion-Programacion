@@ -15,7 +15,7 @@ public class Bidimensional {
         }
         rows = JOptionPane.showInputDialog("Now, type/input the size of rows:");
         while (Integer.parseInt(rows) < 1) {
-            columns = JOptionPane.showInputDialog("The size should be greater than 0! Please, type/input again the size of rows");
+            rows = JOptionPane.showInputDialog("The size should be greater than 0! Please, type/input again the size of rows");
         }
         matrix = new int[Integer.parseInt(rows)][Integer.parseInt(columns)];
         JOptionPane.showMessageDialog(null, "Please, type the values for the bi-dimensional array of: " + rows + " and " + columns + ".");
