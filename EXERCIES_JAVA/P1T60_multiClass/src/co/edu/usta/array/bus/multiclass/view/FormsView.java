@@ -14,6 +14,15 @@ public class FormsView {
         int  valueInt1 = 0, showinfoint;
         float showinfofloat,  valuefloat1;
 
+        value=JOptionPane.showInputDialog("Please type the number of rows for him bus: ");
+        myVehicle.createPlacesArray(value);
+
+
+
+
+
+
+
         //read the value
         value=JOptionPane.showInputDialog("Please type the kind of service of your vehicle");
         //set the value in the serviceType variable
@@ -60,7 +69,9 @@ public class FormsView {
         value=JOptionPane.showInputDialog("Please type the kind of plates of your vehicle");
         myVehicle.setPlates(value);
         showInfo=myVehicle.getPlates();
-        JOptionPane.showMessageDialog(null, "Your brand for this vehicle is: "+showInfo);
+        JOptionPane.showMessageDialog(null, "Your plates for this vehicle is: "+showInfo);
+
+
 
     }
 

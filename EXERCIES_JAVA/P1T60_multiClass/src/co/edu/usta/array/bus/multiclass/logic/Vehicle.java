@@ -1,5 +1,5 @@
 package co.edu.usta.array.bus.multiclass.logic;
-
+// un atributo siempre es privado
 public class Vehicle {
     private String serviceType;
     private String color;
@@ -62,5 +62,28 @@ public class Vehicle {
     }
     public String getPlates(){
         return plates;
+    }
+    public void createPlacesArray (String rows){
+        int rowsInt=Integer.parseInt(rows);
+        places=new char[rowsInt][4]; 
+    }
+    public void initPlacesArray(){
+        boolean letters=true;
+
+        for (int i = 0; i < places.length; i++) {
+            for (int j = 0; j < places[0].length; j++) {
+                if (letters==true){
+                    places[i][j]='D';
+                }else {
+                    places[i][j]='X';
+                }
+            }
+            if(letters==true){
+                letters=false;
+            }else{
+                letters=true;
+            }
+            
+        }
     }
 }
