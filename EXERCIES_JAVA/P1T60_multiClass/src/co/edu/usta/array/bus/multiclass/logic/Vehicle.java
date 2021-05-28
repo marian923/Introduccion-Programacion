@@ -83,7 +83,25 @@ public class Vehicle {
             }else{
                 letters=true;
             }
-            
+        }
+    }
+    public String arrayToShow(){
+        String returnString="";
+        for (int i = 0; i < places.length; i++) {
+            for (int j = 0; j < places[0].length; j++) {
+                returnString = returnString+"\n";
+            }
+        }
+        return returnString;
+    }
+    public String fillPlace(String row, String column){
+        int rowInt=Integer.parseInt(row);
+        int columnInt=Integer.parseInt(column);
+        if(places[rowInt][columnInt]=='X'||places[rowInt][columnInt]=='O'){
+            return "The place is unavailable";
+        }else{
+            places[rowInt][columnInt]='O';
+            return "The place successfully filled";
         }
     }
 }

@@ -10,16 +10,23 @@ public class FormsView {
     //the bus have 4 columns but the number of rows must be specified by the driver
     public static void main(String []params){
         myVehicle=new Vehicle();
-        String value, showInfo, valuefloat, valueint;
-        int  valueInt1 = 0, showinfoint;
+        String value, showInfo, valuefloat, valueint, row, column;
+        int  valueInt1 = 0, showinfoint, valueConfirmDialog;
         float showinfofloat,  valuefloat1;
 
         value=JOptionPane.showInputDialog("Please type the number of rows for him bus: ");
         myVehicle.createPlacesArray(value);
-
-
-
-
+        myVehicle.initPlacesArray();
+        do {
+            showInfo = myVehicle.arrayToShow();
+            JOptionPane.showMessageDialog(null, showInfo);
+            row = JOptionPane.showInputDialog("Hello, for your place, please type the row to fill: ");
+            column = JOptionPane.showInputDialog("Hello, for your place, please type the column to fill: ");
+            showInfo = myVehicle.fillPlace(row, column);
+            JOptionPane.showMessageDialog(null, showInfo);
+            valueConfirmDialog = JOptionPane.showConfirmDialog(null, "Are your want include another" +
+                    "or leave away a bus(NO ");
+        }while (valueConfirmDialog == JOptionPane.YES_NO_OPTION) ;
 
 
 
