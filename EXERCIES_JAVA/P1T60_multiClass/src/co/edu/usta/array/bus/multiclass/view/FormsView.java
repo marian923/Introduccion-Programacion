@@ -27,6 +27,7 @@ public class FormsView {
             valueConfirmDialog = JOptionPane.showConfirmDialog(null, "Are your want include another" +
                     "or leave away a bus(NO ");
         }while (valueConfirmDialog == JOptionPane.YES_NO_OPTION) ;
+        JOptionPane.showMessageDialog(null, myVehicle.statusOfBusPlaces());
 
 
 

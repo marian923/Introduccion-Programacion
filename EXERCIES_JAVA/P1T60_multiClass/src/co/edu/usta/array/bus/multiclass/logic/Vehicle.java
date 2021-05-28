@@ -69,7 +69,6 @@ public class Vehicle {
     }
     public void initPlacesArray(){
         boolean letters=true;
-
         for (int i = 0; i < places.length; i++) {
             for (int j = 0; j < places[0].length; j++) {
                 if (letters==true){
@@ -89,8 +88,9 @@ public class Vehicle {
         String returnString="";
         for (int i = 0; i < places.length; i++) {
             for (int j = 0; j < places[0].length; j++) {
-                returnString = returnString+"\n";
+                returnString = returnString + places[i][j] + " ";
             }
+            returnString = returnString+"\n";
         }
         return returnString;
     }
@@ -104,4 +104,22 @@ public class Vehicle {
             return "The place successfully filled";
         }
     }
+    public String statusOfBusPlaces(){
+        int filledPlaces=0, emptyPlaces=0, unavailablePlaces=0;
+        for(int i=0; i<places.length; i++) {
+            for (int j = 0; j < places[0].length; j++) {
+                if(places[i][j]=='D'){
+                    emptyPlaces++;
+                }
+                if(places[i][j]=='O'){
+                    filledPlaces++;
+                }
+                if(places[i][j]=='X'){
+                    unavailablePlaces++;
+                }
+            }
+        }
+        return "The amount of filled places is: "+filledPlaces+", the amount of empty places is: "+emptyPlaces;
+    }
+
 }
